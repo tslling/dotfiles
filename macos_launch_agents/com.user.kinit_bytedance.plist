@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.kinit_bytedance</string>
+    <key>Program</key>
+    <string>/Users/tsl/dotfiles/private/kinit_bytedance.sh</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/tsl/Code/scripts/kinit.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>60</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/tsl/var/log/kinit_run.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/tsl/var/log/kinit_run.err</string>
+</dict>
+</plist>
